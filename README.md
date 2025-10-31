@@ -31,7 +31,7 @@
         <li><strong>Secure & Scalable:</strong> Built on a reliable PHP & MySQL stack, ensuring your data is safe and the system can grow with you.</li>
     </ul>
 
-  <h3>🧠 The AI Decision Engine (Powered by Gemini 1.5 Pro)</h3>
+  <h3>🧠 The AI Decision Engine (Powered by Gemini 2.0 Pro)</h3>
     <p>This is where Simba CRM truly roars. Our AI engine analyzes your business prospects and delivers a ranked list of high-potential conversion candidates.</p>
     <ul>
         <li><strong>Intelligent Lead Scoring:</strong> A sophisticated algorithm scores businesses based on multiple data points like rating, profile completeness, contact information, and location desirability.</li>
@@ -49,7 +49,7 @@
         <li><strong>Database:</strong> MySQL / MariaDB</li>
         <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6)</li>
         <li><strong>UI Framework:</strong> Bootstrap 5</li>
-        <li><strong>AI:</strong> Google Gemini 1.5 Pro API</li>
+        <li><strong>AI:</strong> Google Gemini 2.0 Pro API</li>
         <li><strong>Server:</strong> Apache / Nginx</li>
     </ul>
 
@@ -67,7 +67,7 @@
     <ol>
         <li>
             <strong>Clone the repository:</strong>
-            <pre><code>git clone https://github.com/Agrisakthi-india/Simba-CRM.git
+            <pre><code>git clone https://github.com/Agrisakthi-india/Simba_SAAS_CRM.git
 cd simba-crm</code></pre>
         </li>
         <li>
@@ -162,5 +162,5 @@ cd simba-crm</code></pre>
         Agrisakthi - <a href="https://agrisakthi.com">https://agrisakthi.com</a>
     </p>
     <p>
-        Project Link: <a href="https://github.com/Agrisakthi-india/Simba-CRM">https://github.com/Agrisakthi-india/Simba-CRM</a>
+        Project Link: <a href="https://github.com/Agrisakthi-india/Simba_SAAS_CRM">https://github.com/Agrisakthi-india/Simba_SAAS_CRM</a>
     </p>
