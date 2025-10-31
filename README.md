@@ -1,6 +1,6 @@
-<h1>Simba CRM - AI-Powered CRM for Indian SMEs</h1>
+<h1>Simba CRM - AI-Powered CRM for Indian SMEs | SAAS </h1>
 <h1>Simba CRM 🦁</h1>
-        <p class="tagline">The AI-Powered CRM for Indian SMEs</p>
+        <p class="tagline">The AI-Powered CRM for Indian SMEs | SAAS </p>
     </div>
 <img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm.png">
 <img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm2.png">
