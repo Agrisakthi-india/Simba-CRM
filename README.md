@@ -59,7 +59,7 @@
     <ol>
         <li>
             <strong>Clone the repository:</strong>
-            <pre><code>git clone https://github.com/agrisakthi/simba-crm.git
+            <pre><code>git clone https://github.com/Agrisakthi-india/Simba-CRM.git
 cd simba-crm</code></pre>
         </li>
         <li>
@@ -113,7 +113,7 @@ cd simba-crm</code></pre>
         In addition to the terms of the AGPLv3, we require the following attribution to be displayed in any and all public-facing instances of this software, whether modified or unmodified:
     </p>
     <blockquote>
-        <strong>You must retain the "Powered by Simba CRM" link in the footer of the application, pointing back to <code>https://agrisakthi.in</code>.</strong>
+        <strong>You must retain the "Powered by Simba CRM" link in the footer of the application, pointing back to <code>https://agrisakthi.com</code>.</strong>
     </blockquote>
     <p>
         This attribution is a core part of our open-source model, allowing us to continue development and support for this project. Removal of this attribution is a violation of the licensing terms.
