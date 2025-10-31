@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simba AI CRM</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Website and Organization Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Simba AI CRM",
+      "url": "https://www.simbaai.com"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Simba AI CRM",
+      "url": "https://www.simbaai.com",
+      "logo": "https://www.simbaai.com/logo.png",
+      "description": "Simba AI CRM is the first intelligent assistant designed for ambitious SMEs. We combine a powerful contact database with a world-class AI strategist to help you find leads, automate outreach, and close deals faster.",
+      "sameAs": [
+        "https://twitter.com/simbaai",
+        "https://www.linkedin.com/company/simbaai"
+      ]
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-gradient-hero {
+            background-image: linear-gradient(to right, #e0f7fa, #ffffff);
+        }
+        .btn-primary {
+            background: linear-gradient(to right, #007bff, #6a0dad); /* Vibrant blue to purple gradient */
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+        }
+        .btn-primary:hover {
+            box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
+        }
+        .feature-card {
+            border: 1px solid rgba(0, 123, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        .hero-slide {
+            transition: opacity 0.5s ease-in-out;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-white sticky top-0 z-50 py-4 shadow-xl">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-extrabold text-gray-900">Simba<span class="text-blue-600">AI</span></a>
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/919999999999" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-colors duration-300 flex items-center">
+                    <i class="bi bi-whatsapp mr-2"></i> Chat with us
+                </a>
+                <a href="#cta-footer" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition-colors duration-300">
+                    Sign Up for Free
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- 1. Homepage: Main Hero Section (Updated with slider) -->
+        <section id="hero" class="relative bg-gradient-hero min-h-[80vh] flex items-center justify-center text-center p-8 overflow-hidden">
+            <div class="relative w-full h-full">
+                <!-- Hero Slides Container -->
+                <div id="hero-slides-container" class="absolute inset-0">
+                    <!-- Slide 1 (Active) -->
+                    <div class="hero-slide opacity-100 flex-col">
+                        <div class="container mx-auto">
+                            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter max-w-4xl mx-auto text-gray-900">
+                                Stop Managing Your <span class="text-blue-600">CRM</span>. Let Your CRM Manage Your Growth.
+                            </h1>
+                            <p class="mt-6 text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
+                                Simba AI CRM is the first intelligent assistant designed for ambitious SMEs. We combine a powerful contact database with a world-class AI strategist to help you find leads, automate outreach, and close deals faster.
+                            </p>
+                            <div class="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                                <a href="#" class="btn-primary font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105">
+                                    Start Your Free Trial
+                                </a>
+                                <a href="#" class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-4 px-10 rounded-full text-lg border-2 border-blue-600 transition-colors duration-300 transform hover:scale-105">
+                                    <i class="bi bi-play-circle-fill mr-2"></i> Watch a 2-Minute Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="hero-slide opacity-0 flex-col">
+                        <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center text-left">
+                            <div>
+                                <h2 class="text-3xl md:text-5xl font-extrabold text-blue-600">The Intelligent Dashboard</h2>
+                                <p class="mt-4 text-gray-700 text-lg">
+                                    Instantly find and qualify leads with natural language search and on-demand AI Insights.
+                                </p>
+                                <a href="#" class="mt-6 inline-block btn-primary font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+                                    Learn More
+                                </a>
+                            </div>
+                            <!-- Image placeholder, replace this with an actual screenshot -->
+                            <img src="https://placehold.co/600x400/ffffff/4b5563?text=Your+App+Screenshot+1" alt="Simba AI Dashboard Screenshot" class="w-full h-auto rounded-xl shadow-lg">
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="hero-slide opacity-0 flex-col">
+                        <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center text-right md:text-left">
+                            <!-- Image placeholder, replace this with an actual screenshot -->
+                            <img src="https://placehold.co/600x400/ffffff/4b5563?text=Your+App+Screenshot+2" alt="Simba AI Chat Widget Screenshot" class="w-full h-auto rounded-xl shadow-lg">
+                            <div>
+                                <h2 class="text-3xl md:text-5xl font-extrabold text-blue-600">The Conversational Strategist</h2>
+                                <p class="mt-4 text-gray-700 text-lg">
+                                    Meet Simba, your personal AI business consultant. Get strategic advice and content tailored for your growth.
+                                </p>
+                                <a href="#" class="mt-6 inline-block btn-primary font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+                                    Talk to Simba
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Navigation Buttons -->
+            <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-900 text-3xl p-2 rounded-full bg-white bg-opacity-50 hover:bg-opacity-70 transition-colors">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button id="next-slide" class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-900 text-3xl p-2 rounded-full bg-white bg-opacity-50 hover:bg-opacity-70 transition-colors">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </section>
+
+        <!-- 2. "How It Works" / Features Section -->
+        <section id="how-it-works" class="py-20 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-12">Your All-in-One Growth Platform, Powered by AI</h2>
+                <div class="grid md:grid-cols-3 gap-12">
+                    <!-- Feature 1 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-xl feature-card flex flex-col">
+                        <div class="flex-shrink-0 mx-auto mb-6 text-5xl text-blue-600">
+                            <i class="bi bi-compass-fill"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">The Intelligent Dashboard</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-6 flex-grow">
+                            Access a massive, filterable database of business listings. Use our revolutionary <span class="font-semibold text-gray-800">Natural Language Search</span> to find exactly who you're looking for – just ask a question like "find top-rated restaurants in Chennai with a website." Then, use our on-demand <span class="font-semibold text-gray-800">AI Insights</span> to get a complete market analysis and a ready-to-use sales pitch for any business in seconds.
+                        </p>
+                        <!-- Image placeholder -->
+                        <img src="https://placehold.co/600x400/e5e7eb/4b5563?text=Dashboard+Screenshot" alt="Dashboard with AI Search bar and business card" class="w-full h-auto rounded-xl shadow-lg mt-auto">
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-xl feature-card flex flex-col">
+                        <div class="flex-shrink-0 mx-auto mb-6 text-5xl text-blue-600">
+                            <i class="bi bi-list-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">The Proactive Sales Assistant</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-6 flex-grow">
+                            Convert businesses to leads with a single click. Our <span class="font-semibold text-gray-800">Task Management</span> system and <span class="font-semibold text-gray-800">Activity Timeline</span> give you a complete 360-degree view of every interaction. Start your day with the <span class="font-semibold text-gray-800">Action Center Widget</span>, which proactively tells you exactly which tasks are overdue and which leads need your immediate attention.
+                        </p>
+                        <!-- Image placeholder -->
+                        <img src="https://placehold.co/600x400/e5e7eb/4b5563?text=Lead+Details+Page" alt="Lead details page with activity timeline and task list" class="w-full h-auto rounded-xl shadow-lg mt-auto">
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-xl feature-card flex flex-col">
+                        <div class="flex-shrink-0 mx-auto mb-6 text-5xl text-blue-600">
+                            <i class="bi bi-robot"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">The Conversational Strategist</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-6 flex-grow">
+                            Meet <span class="font-semibold text-gray-800">Simba</span>, your personal AI business consultant. Ask it anything, from "What are my tasks for today?" to "Help me draft a collaboration proposal for ABC Corp." Simba understands your unique company profile and provides strategic advice and content tailored specifically to help you grow your business, not just generic answers from the web.
+                        </p>
+                        <!-- Image placeholder -->
+                        <img src="https://placehold.co/600x400/e5e7eb/4b5563?text=Simba+Chat+Widget" alt="Simba chat widget with an insightful response" class="w-full h-auto rounded-xl shadow-lg mt-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Detailed Features List Section -->
+        <section id="features" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-12">Everything You Need. Nothing You Don't.</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                    <!-- Feature Item 1 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Lead Management</h4>
+                        <p class="text-gray-600">Track leads through a visual sales funnel (Follow-up, Connected, Committed). See at a glance which deals are progressing and where your process needs work.</p>
+                    </div>
+                    <!-- Feature Item 2 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">AI-Powered Lead Scoring</h4>
+                        <p class="text-gray-600">Let Simba automatically analyze and score your new leads from 1-100, so your team always knows which opportunities to prioritize.</p>
+                    </div>
+                    <!-- Feature Item 3 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Team Collaboration</h4>
+                        <p class="text-gray-600">Invite your team members, assign leads, and set custom permissions. Account Admins can even restrict access by business category to create specialized sales teams.</p>
+                    </div>
+                    <!-- Feature Item 4 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Field Visit Planner</h4>
+                        <p class="text-gray-600">Empower your field sales team. Plan daily visits, create AI-optimized routes to save time and fuel, and get GPS-verified check-ins for ultimate accountability.</p>
+                    </div>
+                    <!-- Feature Item 5 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Data Management</h4>
+                        <p class="text-gray-600">Easily add new businesses manually or bulk upload thousands of records with our intelligent CSV importer that automatically handles duplicates.</p>
+                    </div>
+                    <!-- Feature Item 6 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Secure & Private</h4>
+                        <p class="text-gray-600">Built from the ground up for the SaaS world. Your data is your own. With robust permissions and user-scoping, your team's data is completely isolated and secure.</p>
+                    </div>
+                    <!-- Feature Item 7 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Template Manager</h4>
+                        <p class="text-gray-600">Create and save unlimited email templates with our simple editor, and use them to send professional, consistent messages to your leads.</p>
+                    </div>
+                    <!-- Feature Item 8 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-blue-600">
+                        <h4 class="text-xl font-bold mb-2">Super Admin Panel</h4>
+                        <p class="text-gray-600">For platform owners, a complete backend to manage all users, approve new accounts, and monitor system-wide activity with the Simba Query Log.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Target Audience Section -->
+        <section id="target-audience" class="py-20 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-12">Built for the Hustle of SMEs</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Audience 1 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg border-b-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">
+                            <i class="bi bi-briefcase-fill"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Sales Teams</h4>
+                        <p class="text-gray-600">Who need to manage a large number of leads and stay organized with tasks and follow-ups.</p>
+                    </div>
+                    <!-- Audience 2 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg border-b-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">
+                            <i class="bi bi-megaphone-fill"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Marketing Agencies</h4>
+                        <p class="text-gray-600">Who need to research local markets and create hyper-personalized outreach campaigns for their clients.</p>
+                    </div>
+                    <!-- Audience 3 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg border-b-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Business Development Reps</h4>
+                        <p class="text-gray-600">Who need to quickly identify and qualify high-potential leads in specific regions and industries.</p>
+                    </div>
+                    <!-- Audience 4 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg border-b-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Field Sales & Service Companies</h4>
+                        <p class="text-gray-600">Who need to plan efficient daily routes and verify that on-site visits have been completed.</p>
+                    </div>
+                    <!-- Audience 5 -->
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg border-b-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">
+                            <i class="bi bi-person-fill-gear"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Startup Founders & Solopreneurs</h4>
+                        <p class="text-gray-600">Who need an intelligent assistant to act as their "co-pilot," helping them stay on top of sales without hiring a large team.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Call to Action (Footer Section) -->
+        <section id="cta-footer" class="py-20 bg-blue-600 text-white text-center">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Ready to Supercharge Your Sales Process?</h2>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                    Stop wasting time on manual data entry and repetitive follow-ups. Let Simba AI handle the heavy lifting so you can focus on what you do best: building relationships and closing deals.
+                </p>
+                <div class="mt-8">
+                    <a href="#" class="bg-white hover:bg-gray-200 text-blue-600 font-bold py-4 px-10 rounded-full text-lg transition-colors duration-300 transform hover:scale-105 shadow-xl">
+                        Sign Up for Free
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 text-center text-gray-400">
+        <p>&copy; 2025 Simba AI CRM. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slidesContainer = document.getElementById('hero-slides-container');
+            const slides = slidesContainer.querySelectorAll('.hero-slide');
+            const prevButton = document.getElementById('prev-slide');
+            const nextButton = document.getElementById('next-slide');
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+            let slideInterval;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    if (i === index) {
+                        slide.classList.remove('opacity-0');
+                        slide.classList.add('opacity-100');
+                        slide.style.zIndex = 10;
+                    } else {
+                        slide.classList.remove('opacity-100');
+                        slide.classList.add('opacity-0');
+                        slide.style.zIndex = 1;
+                    }
+                });
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                showSlide(currentSlide);
+            }
+
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                showSlide(currentSlide);
+            }
+
+            // Automatic sliding
+            function startSlideShow() {
+                slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+            }
+
+            // Stop sliding when a user interacts
+            function stopSlideShow() {
+                clearInterval(slideInterval);
+            }
+
+            // Event listeners for manual navigation
+            nextButton.addEventListener('click', () => {
+                stopSlideShow();
+                nextSlide();
+                startSlideShow(); // Resume slideshow after manual interaction
+            });
+
+            prevButton.addEventListener('click', () => {
+                stopSlideShow();
+                prevSlide();
+                startSlideShow(); // Resume slideshow after manual interaction
+            });
+
+            // Initial setup
+            showSlide(currentSlide);
+            startSlideShow();
+        });
+    </script>
+</body>
+</html>
