@@ -141,7 +141,7 @@ cd simba-crm</code></pre>
         <strong>You can make a one-time or recurring donation via Razorpay.</strong>
     </p>
     <p style="text-align: center;">
-        <a href="YOUR_RAZORPAY_DONATION_LINK_HERE" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #02042b; color: #fff; border-radius: 5px; font-weight: bold; text-decoration: none;">
+        <a href="https://razorpay.me/@agrisakthimarketplaceprivatel" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #02042b; color: #fff; border-radius: 5px; font-weight: bold; text-decoration: none;">
             💳 Donate with Razorpay
         </a>
     </p>
