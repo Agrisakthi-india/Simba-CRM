@@ -2,6 +2,14 @@
 <h1>Simba CRM 🦁</h1>
         <p class="tagline">The AI-Powered CRM for Indian SMEs</p>
     </div>
+<img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm.png">
+<img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm2.png">
+<img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm3.png">
+<img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm4.png">
+<img src="https://github.com/Agrisakthi-india/Simba-CRM/blob/main/simba%20crm5.png">
+
+
+
 
  <p>
         <strong>Simba CRM is an intelligent Customer Relationship Management system designed from the ground up to empower Small and Medium Enterprises (SMEs) in India.</strong> It goes beyond simple data storage by integrating a powerful AI Decision Engine, powered by Google's Gemini 1.5 Pro, to transform your business data into actionable, high-quality leads.
